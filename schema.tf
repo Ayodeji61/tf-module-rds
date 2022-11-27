@@ -1,4 +1,4 @@
-/*
+
 
 resource "null_resource" "load-schema" {
   depends_on = [aws_rds_cluster.default]
@@ -15,4 +15,3 @@ EOF
 
 }
 
-*/
